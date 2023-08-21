@@ -1,0 +1,40 @@
+
+
+.carousel_container{
+    position: relative;
+
+    .carousel_image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        transition: opacity 1s ease-in-out;
+        border-radius: .5rem;
+
+        img{
+            object-fit: cover;
+            width: 400px;
+            height: 300px;
+        }
+    }
+
+    .prev_button{
+        position: absolute;
+        top: 50%;
+        left: -10%;
+        border: none;
+        background-color: transparent;
+        font-size: 2rem;
+        color: #393E46;
+    }
+
+    .next_button{
+        position: absolute;
+        top: 50%;
+        right: -10%;
+        border: none;
+        background-color: transparent;
+        font-size: 2rem;
+        color: #393E46;
+    }
+}
